@@ -1,0 +1,161 @@
+body {
+    font-family: Times New Roman, sans-serif;
+    line-height: 2;
+    color: #666;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.main-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #777;
+}
+
+#site-title {
+    text-algrin: center;
+    margin-bottom: 5px;
+}
+
+.content . article {
+    background-color: white;
+    padding: 10px;
+    margin: 18 px 0;
+    color: red;
+}
+
+.post p {
+    margin-bottom: 10px;
+}
+
+h2 + p {
+    font-weight: bold;
+    font-size: l.lem;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p {
+    color: black;
+    font-size: 19px;
+}
+
+.post p {
+    color: yellow;
+}
+
+.featured-post .intro {
+    color: darkgreen;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.important {
+    color: green;
+    font-weight: bold;
+
+}
+
+
+li.important {
+    color: orange;
+    text-decoration: underline;
+}
+
+ul li {
+    color: blue;
+}
+
+.important {
+    color: orange !important;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    color: rgb(26, 83, 09);
+}
+
+.card {
+    border: 2px solid rgb(87, 43, 93);
+    padding: inherit;
+
+}
+
+.examples {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+li:hover {
+    background-color: blue;
+    cursor: crosshair;
+}
+
+li:nth-child(odd) {
+    background-color: color-mix hotpink;
+}
+
+.main-header:hover {
+    background-color: grey;
+    transition: background-color 0.3s;
+}
+
+p::first-line {
+    font-weight: bold;
+}
+
+.post h2::after {
+    content: " %";
+    color: gold;
+}
+
+.card::before {
+    content: "->";
+    color: azure;
+}
+
+@media (max-widht: 1920px) {
+    .content {
+        color: blue;
+        widh: 100%;
+    }
+}
+
+@media (max-widht: 768px) {
+    widht: 50%;
+}
+
+@keyframes animation {
+    from {
+        color: blue;
+        transform: translateX(0);
+
+    }
+    to {
+        color: blue;
+        transform: translateX(100);
+    }
+}
+
+.box {
+    animation: move 9s;
+}
+
+:root {
+    --main-color: blue;
+}
+.fut {
+    color: var(--main-color)
+}
