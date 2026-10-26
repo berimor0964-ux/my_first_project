@@ -1,0 +1,10 @@
+1 required, pattern, min, max, minlength, maxlength, type, step - задают правила проверки до отправки формы.
+2 novalidate отключает встроенную браузерную валидацию для всей формы; JS-отключение - точечное управление через novalidate или preventDefault.
+3 <label for="id"> + <input id="id"> -связывает подпись с полем, нужно для скринридеров и клика по тексту.
+4 email, tel, url, password, number, date, search, color - подсказывают браузеру тип данных и клавиатуру.
+5 pattern задаёт регулярное выражение; использовать для строгих форматов (ИНН, телефон, индекс).
+6 input, blur, change, submit - позволяют проверять поле сразу при вводе или потере фокуса.
+7 aria-live, aria-describedby, role="alert" - озвучивают ошибку скринридером.
+8 fieldset/legend группируют связанные поля и дают группе понятное имя для доступности.
+9 Сравнение значений в JS (например, пароль и подтверждение) через setCustomValidity() и checkValidity().
+10 :valid, :invalid, :required, :focus, :user-invalid - меняют стиль поля в зависимости от состояния.

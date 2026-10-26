@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Building Today</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-container">
+        <a href="#" class="logo">Klim-Group</a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="#" class="nav-link">Продукт</a></li>
+                <li><a href="#" class="nav-link">Решения</a></li>
+                <li><a href="#" class="nav-link">Предприятие</a></li>
+                <li><a href="#" class="nav-link">Ресурсы</a></li>
+                <li><a href="#" class="nav-link">Цены</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <a href="#" class="nav-link">Войти</a>
+            <a href="#" class="btn btn-dark">Регистрация</a>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container hero-container">
+        <div class="hero-content">
+            <h1 class="hero-title">Начните строить<br>уже сегодня!</h1>
+            <p class="hero-subtitle">Начните свой путь к успеху с нашим продуктом. Мы предлагаем лучшие решения для вашего бизнеса.</p>
+            <div class="hero-actions">
+                <a href="#" class="btn btn-dark">Начать</a>
+                <a href="#" class="btn btn-light">Подробнее</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="gradient-placeholder">
+                <div class="mountain-icon">▲</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stats">
+    <div class="container stats-grid">
+        <div class="stat-item">
+            <h3>100+</h3>
+            <p>Проектов</p>
+        </div>
+        <div class="stat-item">
+            <h3>450+</h3>
+            <p>Сотрудников</p>
+        </div>
+        <div class="stat-item">
+            <h3>10к+</h3>
+            <p>Клиентов</p>
+        </div>
+        <div class="stat-item">
+            <h3>42+</h3>
+            <p>Наград</p>
+        </div>
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="section-header">
+            <h2>Наши мощные возможности</h2>
+            <p>Мы объединили лучшие инструменты для вашего роста в одном месте.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h4>Аналитика</h4>
+                <p>Отслеживайте все показатели в реальном времени.</p>
+                <a href="javascript:void(0)" class="link-more" onclick="openModal('modal-analytics')">Подробнее</a>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h4>Скорость</h4>
+                <p>Мгновенная загрузка и отклик интерфейса.</p>
+                <a href="javascript:void(0)" class="link-more" onclick="openModal('modal-speed')">Подробнее</a>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <h4>Безопасность</h4>
+                <p>Ваши данные надежно защищены.</p>
+                <a href="javascript:void(0)" class="link-more" onclick="openModal('modal-security')">Подробнее</a>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📱</div>
+                <h4>Адаптивность</h4>
+                <p>Идеально работает на любых устройствах.</p>
+                <a href="javascript:void(0)" class="link-more" onclick="openModal('modal-adaptive')">Подробнее</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pricing">
+    <div class="container">
+        <div class="pricing-grid">
+            <div class="pricing-card">
+                <h4>Базовый</h4>
+                <div class="price">$60 <span>/мес</span></div>
+                <p class="price-desc">Оплата annually</p>
+                <ul class="pricing-list">
+                    <li>✔️ До 5 проектов</li>
+                    <li>✔️ Базовая аналитика</li>
+                    <li>✔️ Email поддержка</li>
+                </ul>
+                <a href="javascript:void(0)" class="btn btn-dark btn-full" onclick="openModal('modal-payment')">Купить</a>
+            </div>
+            <div class="pricing-card active">
+                <h4>Профессиональный</h4>
+                <div class="price">$120 <span>/мес</span></div>
+                <p class="price-desc">Оплата annually</p>
+                <ul class="pricing-list">
+                    <li>✔️ Неограниченно проектов</li>
+                    <li>✔️ Расширенная аналитика</li>
+                    <li>✔️ Приоритетная поддержка 24/7</li>
+                </ul>
+                <a href="javascript:void(0)" class="btn btn-light btn-full" onclick="openModal('modal-payment')">Купить</a>
+            </div>
+            <div class="pricing-card">
+                <h4>Корпоративный</h4>
+                <div class="price">$250 <span>/мес</span></div>
+                <p class="price-desc">Оплата annually</p>
+                <ul class="pricing-list">
+                    <li>✔️ Персональный менеджер</li>
+                    <li>✔️ API интеграции</li>
+                    <li>✔️ Выделенный сервер</li>
+                </ul>
+                <a href="javascript:void(0)" class="btn btn-dark btn-full" onclick="openModal('modal-payment')">Купить</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <div class="section-header">
+            <h2>Что говорят наши клиенты</h2>
+            <p>Реальные отзывы людей, которые уже добились успеха с нами.</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="review-card">
+                <p>"Это лучший сервис, которым я когда-либо пользовался. Всё интуитивно понятно!"</p>
+                <div class="author">
+                    <div class="avatar"></div>
+                    <div>
+                        <strong>Иван Иванов</strong>
+                        <span>Директор</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <p>"Благодаря этой платформе наша конверсия выросла втрое за первый месяц."</p>
+                <div class="author">
+                    <div class="avatar"></div>
+                    <div>
+                        <strong>Мария Петрова</strong>
+                        <span>Маркетолог</span>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <p>"Отличная поддержка и невероятно быстрый интерфейс. Рекомендую всем."</p>
+                <div class="author">
+                    <div class="avatar"></div>
+                    <div>
+                        <strong>Алексей Смирнов</strong>
+                        <span>Разработчик</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container cta-container">
+        <h2>Начните строить уже сегодня!</h2>
+        <p>Зарегистрируйтесь, и вы будете готовы к работе через пару минут.</p>
+        <form class="cta-form" onsubmit="event.preventDefault(); alert('Вы успешно подписались!');">
+            <input type="email" placeholder="Введите ваш email" required>
+            <button type="submit" class="btn btn-light">Отправить</button>
+        </form>
+    </div>
+</section>
+
+<section class="faq">
+    <div class="container">
+        <h2 class="faq-title">Часто задаваемые вопросы</h2>
+        <div class="faq-list">
+            <details class="faq-item">
+                <summary>Как оставаться в безопасности?</summary>
+                <p>Мы используем передовые методы шифрования для защиты ваших данных.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Могу ли я попробовать перед покупкой?</summary>
+                <p>Да, мы предоставляем бесплатный пробный период на 14 дней.</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container footer-container">
+        <p>© 2024 Spiki. Все права защищены.</p>
+        <div class="footer-socials">
+            <a href="#">ВК</a>
+            <a href="#">ТГ</a>
+        </div>
+    </div>
+</footer>
+
+<div id="modal-analytics" class="modal-overlay">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal('modal-analytics')">×</button>
+        <h3>Мощная аналитика</h3>
+        <p>Наш сервис предоставляет детальные дашборды, которые обновляются каждую секунду. Вы сможете отслеживать конверсию, поведение пользователей и источники трафика.</p>
+        <p><strong>Преимущества:</strong> Интеграция с Google Analytics, построение воронок продаж, A/B тестирование.</p>
+        <button class="btn btn-dark" onclick="closeModal('modal-analytics')">Понятно</button>
+    </div>
+</div>
+
+<div id="modal-speed" class="modal-overlay">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal('modal-speed')">×</button>
+        <h3>Невероятная скорость</h3>
+        <p>Наши сервера распределены по всему миру. Мы используем CDN и кэширование, чтобы ваши страницы загружались за миллисекунды, независимо от местоположения клиента.</p>
+        <button class="btn btn-dark" onclick="closeModal('modal-speed')">Понятно</button>
+    </div>
+</div>
+
+<div id="modal-security" class="modal-overlay">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal('modal-security')">×</button>
+        <h3>Безопасность компании и данных</h3>
+        <p>Компания Spiki серьезно относится к безопасности. Все данные передаются по протоколу <strong>SSL/TLS</strong> и хранятся в зашифрованном виде (AES-256).</p>
+        <p>Мы проходим ежегодный аудит безопасности и соответствуем стандарту <strong>PCI DSS</strong> для обработки платежей.</p>
+        <button class="btn btn-dark" onclick="closeModal('modal-security')">Понятно</button>
+    </div>
+</div>
+
+<div id="modal-adaptive" class="modal-overlay">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal('modal-adaptive')">×</button>
+        <h3>Адаптивность под все экраны</h3>
+        <p>Интерфейс автоматически подстраивается под экраны смартфонов, планшетов и мониторов с 4K разрешением. Ни один элемент не "съезжает" и не ломает верстку.</p>
+        <button class="btn btn-dark" onclick="closeModal('modal-adaptive')">Понятно</button>
+    </div>
+</div>
+
+<div id="modal-payment" class="modal-overlay">
+    <div class="modal-content">
+        <button class="modal-close" onclick="closeModal('modal-payment')">×</button>
+        <h3>Оформление подписки</h3>
+        <p style="margin-bottom: 20px; font-size: 0.9rem; color: #666;">Заполните данные для оплаты. Это демонстрационная форма.</p>
+
+        <form onsubmit="event.preventDefault(); alert('Оплата успешно проведена (Демо)!'); closeModal('modal-payment');" style="display: flex; flex-direction: column; gap: 15px;">
+            <input type="text" placeholder="Имя владельца карты" required style="padding: 10px; border: 1px solid #ccc; border-radius: 6px; width: 100%;">
+            <input type="text" placeholder="Номер карты (0000 0000 0000 0000)" required maxlength="19" style="padding: 10px; border: 1px solid #ccc; border-radius: 6px; width: 100%;">
+
+            <div style="display: flex; gap: 10px;">
+                <input type="text" placeholder="ММ/ГГ" required maxlength="5" style="padding: 10px; border: 1px solid #ccc; border-radius: 6px; width: 50%;">
+                <input type="password" placeholder="CVV" required maxlength="3" style="padding: 10px; border: 1px solid #ccc; border-radius: 6px; width: 50%;">
+            </div>
+
+            <input type="email" placeholder="Ваш Email (для чека)" required style="padding: 10px; border: 1px solid #ccc; border-radius: 6px; width: 100%;">
+
+            <button type="submit" class="btn btn-dark" style="margin-top: 10px;">Оплатить</button>
+        </form>
+    </div>
+</div>
+
+<script>
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+
+    window.onclick = function(event) {
+        if (event.target.classList.contains('modal-overlay')) {
+            event.target.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    }
+</script>
+</body>
+</html>
